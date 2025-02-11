@@ -120,18 +120,6 @@ npm run lint         # Run ESLint
 npm run type-check   # Run TypeScript type checking
 ```
 
-## Environment Variables
-
-Create a `.env` file in the root directory:
-
-```env
-VITE_API_BASE_URL=https://jsonplaceholder.typicode.com
-```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - [JSONPlaceholder](https://jsonplaceholder.typicode.com/) for the fake REST API
