@@ -20,7 +20,6 @@ export const api = {
 
   createUser: async (user: Omit<User, "id">): Promise<User> => {
     const { data } = await axios.post(`${BASE_URL}/users`, user);
-    // JSONPlaceholder returns a generic ID, we'll generate a unique one
     return {
       ...user,
       id: Date.now(),
