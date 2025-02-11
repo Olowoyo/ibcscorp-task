@@ -35,7 +35,7 @@ A responsive React dashboard application built with TypeScript, React Query, and
 
 ```bash
 git clone https://github.com/Olowoyo/ibcscorp-task.git
-cd react-dashboard
+cd ibcscorp
 ```
 
 2. Install dependencies:
@@ -75,7 +75,6 @@ src/
 ├── hooks/
 │   └── useDebounce.ts
 ├── types/
-│   └── index.ts
 └── App.tsx
 ```
 
